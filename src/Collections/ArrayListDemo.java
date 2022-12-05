@@ -5,11 +5,11 @@ import java.util.Iterator;
 import java.util.List;
 public class ArrayListDemo {
 
-	@SuppressWarnings("unchecked")
+	//@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		@SuppressWarnings("rawtypes")
+		//@SuppressWarnings("rawtypes")
 		List data = new ArrayList();//create array list
 		
 		data.add("kant");//ADDing object ArrayList
