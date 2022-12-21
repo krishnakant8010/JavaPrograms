@@ -8,13 +8,13 @@ public class add_number {
 	
 	void get_data() {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter first data=");
+		System.out.println("Enter first Number=");
 		a=sc.nextInt();
-		System.out.println("Enter second data=");
+		System.out.println("Enter second Number=");
 		b=sc.nextInt();
 		
 	}
-	void Put_data(){
+	void Addtion(){
 		sum=a+b;
 		System.out.println("Addition=" +sum);
 	}

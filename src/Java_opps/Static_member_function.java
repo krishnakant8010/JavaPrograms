@@ -15,12 +15,4 @@ public class Static_member_function {
 	static void change() {
 	 c_name="H R College";
 	}
-	
-	public static void main(String a[]) {
-		Static_member_function aa= new Static_member_function(101,"Krishna kant");
-		aa.Display();
-		Static_member_function.change();
-		aa.Display();
-		
-	}
 }

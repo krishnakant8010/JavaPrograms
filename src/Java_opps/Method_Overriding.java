@@ -1,23 +1,21 @@
 package Java_opps;
 
-class first{
-	void message() {
-		System.out.println("Base class message");
+ class Method_Overriding {
+	
+	void car() {
+		System.out.println("This is car for parent's car");
 	}
-}
-
-class second{
-	void message() {
-		System.out.println("Derived class message");
-	}
-}
-
-public class Method_Overriding {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		second aa=new second();
-		aa.message();
+	
+	void bike() {
+		System.out.println("This is car for parent's bike");
 	}
 
 }
+
+ class Method_Overriding_child extends Method_Overriding{
+	void car() {
+		System.out.println("This is car for child car");
+	}
+}
+
+ 

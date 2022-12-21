@@ -15,6 +15,7 @@ public class Constructors_add {
 		a=sc.nextInt();
 		System.out.println("Enter second number=");
 		b=sc.nextInt();
+		
 	}
 	
 	void display() {
@@ -26,11 +27,12 @@ public class Constructors_add {
 		add=a+b;
 		System.out.print("Sum=" +add);
 	}
-	public static void main(String a[]) {
-		Constructors_add aa=new Constructors_add();
-		aa.display();
-		aa.input();
-		aa.display();
-		aa.ouput();	
-	}
+//	public static void main(String a[]) {
+//		Constructors_add aa=new Constructors_add();
+//		
+//		aa.display();
+//		aa.input();
+//		aa.display();
+//		aa.ouput();	
+//	}
 }

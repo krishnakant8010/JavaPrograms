@@ -1,9 +1,6 @@
 package Java_opps;
 
-import java.util.Scanner;
-
 public class Argument_passing {
-
 	int n;
 	void get_data(int i){
 		n=i;
@@ -16,18 +13,4 @@ public class Argument_passing {
 		}
 		System.out.println("Reverse=" + rev);
 	}
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int m;
-		Argument_passing aa=new Argument_passing();
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Eneter Number=");
-		m=sc.nextInt();
-		aa.get_data(m);
-		aa.put_data();
-		sc.close();
-	}
-	
-
 }

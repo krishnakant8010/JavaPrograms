@@ -1,17 +1,93 @@
 package Java_opps;
 
+
 public class Java_Demo_program {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-					// TODO Auto-generated method stub
-			add_number aa=new add_number();
-			Prime_number primedata=new Prime_number();
-			aa.get_data();
-			primedata.prime_data();
-			aa.Put_data();
-			primedata.prime_results();
 
-		}
+//		int m;
+//		Scanner sc=new Scanner(System.in);
+//			System.out.println("\n"+ "Add the your given two nunber");
+//			add_number aa=new add_number();
+//			aa.get_data();
+//			aa.Addition();
+//			
+//			System.out.println("\n"+ "---------Check Prime_number or not-----------");
+//			Prime_number primedata=new Prime_number();
+//			primedata.prime_data();
+//			primedata.prime_results();
+//			
+//			System.out.println("\n"+ "---------Argument_passing for Reverse-----------");
+//			Argument_passing ArgPass=new Argument_passing();
+//			System.out.println("Enter Number=");
+//			m=sc.nextInt();
+//			ArgPass.get_data(m);
+//			ArgPass.put_data();
+//		
+//			System.out.println("\n"+ "-------------Default Constructors------------");
+//			Constructors_add constructors_test=new Constructors_add();
+//			constructors_test.display();
+//			constructors_test.input();
+//			constructors_test.display();
+//			constructors_test.ouput();
+//			
+//			System.out.println("\n"+"------------- 	Parameterized Constructor------------");
+//			Parameterized_Constructor paracong=new 	Parameterized_Constructor(3,5);
+//			Parameterized_Constructor paracong1=new 	Parameterized_Constructor(12,5);
+//			paracong.Out_put();
+//			paracong1.Out_put();
+//			
+//			System.out.println("\n"+"------------- 	Static Data members------------");
+//			Static_Data_members  datamember= new Static_Data_members(101,"Krishna kant");
+//			Static_Data_members  datamember1= new Static_Data_members(102,"Ajit Kumar");
+//			datamember.display();
+//			datamember1.display();
+//			
+//			System.out.println("\n"+"------------- 	Static member function------------");
+//			Static_member_function SM_Function= new Static_member_function(101,"Krishna kant");
+//			SM_Function.Display();
+//			Static_member_function.change();
+//			SM_Function.Display();
+//			
+//			System.out.println("\n"+ "------------- 	Array Example------------");
+//			Array_Example array1=new Array_Example();
+//			array1.get_data();
+//			array1.displayed();
+
+//			System.out.println("\n"+ "------------- Single_Inheritance------------");
+//			Single_Inheritance SIn=new Single_Inheritance();
+//			SIn.second_getdata();
+//			SIn.get_data();
+//			SIn.Addtion();
+//			SIn.displayed_sub();
+
+//			System.out.println("\n"+ "------------- First_Multilevel_Inheritance------------");
+//
+//			First_Multilevel_Inheritance mlt_level=new First_Multilevel_Inheritance();
+//			mlt_level.get_data();
+//			
+//			mlt_level.Addtion();
+//			mlt_level.second_getdata();
+//			mlt_level.displayed_sub();
+//			mlt_level.multiple();
+//			
+
+		System.out.println("\n" + "------------- Method_Overriding------------");
+		Method_Overriding_child over_riding = new Method_Overriding_child();
+		over_riding.car();
+		over_riding.bike();
+//
+//		System.out.println("\n" + "------------- String_example------------");
+//		String_example details = new String_example();
+//		details.get_data();
+//		details.displayed();
+		
+//		System.out.println("---------------String_methord-----------------");
+//		String_methord_test methords=new String_methord_test();
+//		methords.get_data();
+//		methords.get_len();
+//		methords.get_postion();
+
+	}
 
 }

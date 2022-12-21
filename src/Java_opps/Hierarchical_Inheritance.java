@@ -20,7 +20,7 @@ class Second_Hierarchical_Inheritance extends First_Hierarchical_Inheritance{
 	}
 }
 
-class Third_Hierarchical_Inheritance extends Second_Hierarchical_Inheritance{
+class Third_Hierarchical_Inheritance extends First_Hierarchical_Inheritance{
 	void subtarction() {
 		System.out.println("Substraction=" + (a-b));
 	}
@@ -31,6 +31,7 @@ public class Hierarchical_Inheritance {
 		// TODO Auto-generated method stub
 		Second_Hierarchical_Inheritance aa=new Second_Hierarchical_Inheritance();
 		Third_Hierarchical_Inheritance bb=new Third_Hierarchical_Inheritance();
+		
 		aa.input_data();
 		aa.add_number();
 		bb.input_data();

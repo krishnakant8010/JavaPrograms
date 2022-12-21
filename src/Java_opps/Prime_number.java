@@ -5,7 +5,7 @@ import java.util.Scanner;
 	int n;
 	void prime_data() {
 		Scanner prime_value=new Scanner(System.in);
-		System.out.println("Enter for check prime number or not=");
+		System.out.println("Enter any Number for check prime number or not?=");
 		n=prime_value.nextInt();
 		
 	}

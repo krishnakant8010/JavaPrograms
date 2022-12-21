@@ -17,9 +17,5 @@ public class String_example {
 		System.out.println("Name=" + name + "\n" +"Address=" +add);
 	}
 	
-	public static void main(String args[]) {
-		String_example aa=new String_example();
-		aa.get_data();
-		aa.displayed();
-	}
+	
 }
