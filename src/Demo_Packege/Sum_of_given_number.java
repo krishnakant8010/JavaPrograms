@@ -18,5 +18,4 @@ public class Sum_of_given_number {
 		sc.close();
 	}
 
-
 }

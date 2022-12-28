@@ -88,6 +88,17 @@ public class Java_Demo_program {
 //		methords.get_len();
 //		methords.get_postion();
 
+		System.out.println("-----------------Constructor Overloading-----------");
+		ConstructorOverloading s1 = new ConstructorOverloading (111,"Karan");  
+		ConstructorOverloading s2 = new ConstructorOverloading(222,"Aryan",25);  
+	    s1.display();  
+	    s2.display();
+	    
+	    System.out.println("-----------------Copy Constructor-----------");
+	    CopyConstructor cc = new CopyConstructor(111,"Karan");  
+	    CopyConstructor cc1 = new CopyConstructor(cc);  
+	    s1.display();  
+	    s2.display(); 
 	}
 
 }
