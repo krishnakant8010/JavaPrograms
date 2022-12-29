@@ -71,11 +71,11 @@ public class Java_Demo_program {
 //			mlt_level.displayed_sub();
 //			mlt_level.multiple();
 //			
-
-		System.out.println("\n" + "------------- Method_Overriding------------");
-		Method_Overriding_child over_riding = new Method_Overriding_child();
-		over_riding.car();
-		over_riding.bike();
+//
+//		System.out.println("\n" + "------------- Method_Overriding------------");
+//		Method_Overriding_child over_riding = new Method_Overriding_child();
+//		over_riding.car();
+//		over_riding.bike();
 //
 //		System.out.println("\n" + "------------- String_example------------");
 //		String_example details = new String_example();
@@ -88,17 +88,44 @@ public class Java_Demo_program {
 //		methords.get_len();
 //		methords.get_postion();
 
-		System.out.println("-----------------Constructor Overloading-----------");
-		ConstructorOverloading s1 = new ConstructorOverloading (111,"Karan");  
-		ConstructorOverloading s2 = new ConstructorOverloading(222,"Aryan",25);  
-	    s1.display();  
-	    s2.display();
+//		System.out.println("-----------------Constructor Overloading-----------");
+//		ConstructorOverloading s1 = new ConstructorOverloading (111,"Karan");  
+//		ConstructorOverloading s2 = new ConstructorOverloading(222,"Aryan",25);  
+//	    s1.display();  
+//	    s2.display();
+//	    
+//	    System.out.println("-----------------Copy Constructor-----------");
+//	    CopyConstructor cc = new CopyConstructor(111,"Karan");  
+//	    CopyConstructor cc1 = new CopyConstructor(cc);  
+//	    s1.display();  
+//	    s2.display(); 
 	    
-	    System.out.println("-----------------Copy Constructor-----------");
-	    CopyConstructor cc = new CopyConstructor(111,"Karan");  
-	    CopyConstructor cc1 = new CopyConstructor(cc);  
-	    s1.display();  
-	    s2.display(); 
+//		System.out.println("-------------example of Abstract class----------------------");
+//	    Circle1 as=new Circle1();
+//	    as.draw();
+//	    
+//	    Rectangle ra=new Rectangle();
+//	    ra.draw();
+//	    
+//	    
+//	    TestBank b;  
+//	    b=new SBI();  
+//	    System.out.println("Rate of Interest is: "+b.getRateOfInterest()+" %");    
+//	    b=new PNB();  
+//	    System.out.println("Rate of Interest is: "+b.getRateOfInterest()+" %");
+//	    
+//	    System.out.println("-------------Interface Example------------------");
+//	    InterfaceDrawable d=new Circle();//In real scenario, object is provided by method e.g. getDrawable()  
+//	    d.draw();
+	    
+	    
+	    Bank bbb=new SBI1();  
+	    System.out.println("ROI: "+bbb.rateOfInterest()); 
+	    
+	    System.out.println("---------------Multiple inheritance in Java----------");
+	    A7 obj = new A7();  
+	    obj.print();  
+	    obj.show(); 
 	}
 
 }
